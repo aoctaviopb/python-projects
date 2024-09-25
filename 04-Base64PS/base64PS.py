@@ -34,6 +34,8 @@ def encode_decode(b64_file, use = "-d"):
             for i in file_content:
                 output = encode(i)
                 print(output)
+        case _:
+            print("Error")
 
 
 def main():
